@@ -13,5 +13,6 @@ public class SpringMain {
 
         SomeBeanInint someBeanInint = context.getBean("someBeanInint", SomeBeanInint.class);
         context.close();
+        System.out.println("Coś nowego!!!!");
     }
 }
