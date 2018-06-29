@@ -15,9 +15,9 @@ public class UserRepositoryImpl implements IUserRepository {
     private ILogger logger;
 
     public User createUser(String name, int age) {
-        User user= new User(name,age);
-        if (logger !=null)
-            logger.log("Tworzenie użytkownika: "+name);
+        User user = new User(name, age);
+        if (logger != null)
+            logger.log("Tworzenie użytkownika: " + name);
         return user;
     }
 
